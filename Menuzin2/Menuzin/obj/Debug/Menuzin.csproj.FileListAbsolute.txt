@@ -1,0 +1,54 @@
+c:\users\samir\documents\visual studio 2015\Projects\Menuzin\Menuzin\bin\Debug\Menuzin.exe.config
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\Menuzin.exe
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\Menuzin.pdb
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\MaterialDesignColors.dll
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\MaterialDesignColors.pdb
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin.csprojResolveAssemblyReference.cache
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\MainWindow.g.cs
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\App.g.cs
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin_MarkupCompile.cache
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin_MarkupCompile.lref
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\App.baml
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\MainWindow.baml
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin.g.resources
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin.Properties.Resources.resources
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin.csproj.GenerateResource.Cache
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin.exe
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin.pdb
+C:\Users\samir\Documents\Visual Studio 2015\Projects\Menuzin\Menuzin\obj\Debug\Menuzin_Content.g.cs
+D:\Menuzin\Menuzin\bin\Debug\Menuzin.exe.config
+D:\Menuzin\Menuzin\obj\Debug\Menuzin.exe
+D:\Menuzin\Menuzin\obj\Debug\Menuzin.pdb
+D:\Menuzin\Menuzin\bin\Debug\Menuzin.exe
+D:\Menuzin\Menuzin\bin\Debug\Menuzin.pdb
+D:\Menuzin\Menuzin\bin\Debug\MaterialDesignColors.dll
+D:\Menuzin\Menuzin\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Menuzin\Menuzin\bin\Debug\MaterialDesignColors.pdb
+D:\Menuzin\Menuzin\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Menuzin\Menuzin\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Menuzin\Menuzin\obj\Debug\Menuzin.csprojResolveAssemblyReference.cache
+D:\Menuzin\Menuzin\obj\Debug\MainWindow.g.cs
+D:\Menuzin\Menuzin\obj\Debug\App.g.cs
+D:\Menuzin\Menuzin\obj\Debug\Menuzin_Content.g.cs
+D:\Menuzin\Menuzin\obj\Debug\Menuzin_MarkupCompile.cache
+D:\Menuzin\Menuzin\obj\Debug\Menuzin_MarkupCompile.lref
+D:\Menuzin\Menuzin\obj\Debug\App.baml
+D:\Menuzin\Menuzin\obj\Debug\MainWindow.baml
+D:\Menuzin\Menuzin\obj\Debug\Menuzin.g.resources
+D:\Menuzin\Menuzin\obj\Debug\Menuzin.Properties.Resources.resources
+D:\Menuzin\Menuzin\obj\Debug\Menuzin.csproj.GenerateResource.Cache
+G:\Projetos\Menuzin\Menuzin\bin\Debug\Menuzin.exe.config
+G:\Projetos\Menuzin\Menuzin\obj\Debug\Menuzin.exe
+G:\Projetos\Menuzin\Menuzin\obj\Debug\Menuzin.pdb
+D:\Projetos\Menuzin\Menuzin\bin\Debug\Menuzin.exe.config
+D:\Projetos\Menuzin\Menuzin\obj\Debug\Menuzin.exe
+D:\Projetos\Menuzin\Menuzin\obj\Debug\Menuzin.pdb
+E:\Projetos\Menuzin\Menuzin\bin\Debug\Menuzin.exe.config
+E:\Projetos\Menuzin\Menuzin\obj\Debug\Menuzin.exe
+E:\Projetos\Menuzin\Menuzin\obj\Debug\Menuzin.pdb
+C:\Users\samir\Desktop\Menuzin\Menuzin\bin\Debug\Menuzin.exe.config
+C:\Users\samir\Desktop\Menuzin\Menuzin\obj\Debug\Menuzin.exe
+C:\Users\samir\Desktop\Menuzin\Menuzin\obj\Debug\Menuzin.pdb

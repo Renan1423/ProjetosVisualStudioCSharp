@@ -1,0 +1,148 @@
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.pdb
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.dll
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.dll
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.pdb
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.pdb
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.xml
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.g.cs
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.g.cs
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.g.cs
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.cache
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.lref
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.baml
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.baml
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.baml
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.g.resources
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.Properties.Resources.resources
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.GenerateResource.Cache
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.g.cs
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.g.cs
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.baml
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.baml
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.g.cs
+c:\users\naomy\documents\visual studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.baml
+C:\Users\naomy\Documents\Visual Studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csprojAssemblyReference.cache
+C:\Users\naomy\Documents\Visual Studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.CoreCompileInputs.cache
+C:\Users\naomy\Documents\Visual Studio 2015\Projects\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.CopyComplete
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.dll
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csprojResolveAssemblyReference.cache
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.cache
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.lref
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.g.resources
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.Properties.Resources.resources
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.GenerateResource.Cache
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.pdb
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.dll
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.pdb
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csprojResolveAssemblyReference.cache
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.g.cs
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.g.cs
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.g.cs
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.g.cs
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.g.cs
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.g.cs
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.cache
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.lref
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.baml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.baml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.baml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.baml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.baml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.baml
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.g.resources
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.Properties.Resources.resources
+C:\Users\naomy\Downloads\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.GenerateResource.Cache
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.dll
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csprojResolveAssemblyReference.cache
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.g.cs
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.cache
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.lref
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CodigoVerificacao.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.baml
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.g.resources
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.Properties.Resources.resources
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.GenerateResource.Cache
+C:\Users\samir\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_Content.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.pdb
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.dll
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignColors.pdb
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csprojResolveAssemblyReference.cache
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_Content.g.cs
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.cache
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass_MarkupCompile.lref
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\App.baml
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CadastroDeTeatro.baml
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\MainWindow.baml
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Peças.baml
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\Verificacao.baml
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.g.resources
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.Properties.Resources.resources
+C:\Users\naomy\Desktop\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.csproj.GenerateResource.Cache
+C:\Users\samir\Desktop\Coisas do Mi\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+C:\Users\samir\Desktop\Coisas do Mi\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+C:\Users\samir\Desktop\Coisas do Mi\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb
+C:\Users\samir\Desktop\Coisas do Rere\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\bin\Debug\CsharpBuyPass.exe.config
+C:\Users\samir\Desktop\Coisas do Rere\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.exe
+C:\Users\samir\Desktop\Coisas do Rere\CsharpBuyPass\CsharpBuyPass\CsharpBuyPass\obj\Debug\CsharpBuyPass.pdb

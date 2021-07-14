@@ -1,0 +1,535 @@
+﻿<Window x:Class="CsharpBuyPass.Peças"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CsharpBuyPass"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Peças" Height="600" Width="1024" WindowStyle="None" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" HorizontalAlignment="Center" VerticalAlignment="Center" SizeToContent="WidthAndHeight">
+    <Window.Resources>
+        <Storyboard x:Key="Home">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="CadastrarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="AdPeça">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-600"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="CadastrarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-600"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="CadastrarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-600"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-600"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="VizuPeça">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1200"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="CadastrarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1200"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1200"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1200"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="Seg">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Inic">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1800"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="CadastrarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1800"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1800"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="VizualizarPeças">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1800"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Segurança">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ComboBoxItem.PreviewMouseUp" SourceName="txtHome">
+            <BeginStoryboard Storyboard="{StaticResource Home}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ComboBoxItem.PreviewMouseUp" SourceName="cbPeçasAds">
+            <BeginStoryboard Storyboard="{StaticResource AdPeça}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ComboBoxItem.PreviewMouseUp" SourceName="cbPeçasVizu">
+            <BeginStoryboard Storyboard="{StaticResource VizuPeça}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="PreviewMouseUp" SourceName="txtSegurança">
+            <BeginStoryboard Storyboard="{StaticResource Seg}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Background="#202020" HorizontalAlignment="Right" Width="1024" Height="600" VerticalAlignment="Top">
+        <Grid Background="#323232" HorizontalAlignment="Left" Width="250" Height="600" Canvas.ZIndex="1">
+            <Grid.Effect>
+                <DropShadowEffect ShadowDepth="12" Color="#FF595959" Opacity="10" Direction="0"></DropShadowEffect>
+            </Grid.Effect>
+            <Image Source="Imagem\LogoProvisório2.png" Width="180px" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,45"></Image>
+            <StackPanel VerticalAlignment="Top" Margin="10,110,10,0" Width="230px" Height="414">
+                <TextBlock x:Name="txtHome" Margin="15,40,89.4,0" FontFamily="Lado" FontSize="22" FontWeight="Bold" Text="Home" PreviewMouseDown="txtSegurança_PreviewMouseDown">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Margin" Value="15"/>
+                            <Setter Property="FontFamily" Value="Lado"/>
+                            <Setter Property="FontSize" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="Foreground" Value="#A2A2A2"/>
+                            <Setter Property="Text" Value="Home"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Foreground" Value="#FFFFBA00"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <ComboBox x:Name="cbPeças" Margin="15,70,0.4,0" FontFamily="Lado" FontSize="22" Foreground="#FFFFFF" PreviewMouseUp="cbPeças_PreviewMouseUp" Style="{StaticResource MaterialDesignFloatingHintComboBox}" materialDesign:HintAssist.Hint="Peças" Text="{Binding Peças}" VerticalAlignment="Center" FontWeight="Bold" Height="62">
+                    <ComboBox.ItemContainerStyle>
+                        <Style>
+                            <EventSetter Event="UIElement.PreviewMouseUp"
+                                Handler="cbPeçasAds_PreviewMouseUp"/>
+                        </Style>
+                    </ComboBox.ItemContainerStyle>
+                    <ComboBoxItem x:Name="cbPeçasAds" PreviewMouseUp="cbPeçasAds_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <materialDesign:PackIcon Kind="PlusBox" Foreground="#A2A2A2" Width="25px" Height="25px" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,160,0"/>
+                            <TextBlock Text="Adicionar Peças" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cbPeçasVizu" PreviewMouseUp="cbPeçasVizu_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <materialDesign:PackIcon Kind="Eye" Foreground="#A2A2A2" Width="25px" Height="25px" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,160,0"/>
+                            <TextBlock Text="Vizualizar Peças" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                </ComboBox>
+                <TextBlock x:Name="txtSegurança" Margin="15,80,89.4,15" FontFamily="Lado" FontSize="22" FontWeight="Bold" Text="Segurança" PreviewMouseDown="txtSegurança_PreviewMouseDown" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Margin" Value="15"/>
+                            <Setter Property="FontFamily" Value="Lado"/>
+                            <Setter Property="FontSize" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="Foreground" Value="#A2A2A2"/>
+                            <Setter Property="Text" Value="Segurança"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Foreground" Value="#FFFFBA00"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </StackPanel>
+            <TextBlock x:Name="txtSair" Margin="25,550,178,15" FontFamily="Lado" FontSize="18" FontWeight="Bold" Foreground="#FF4343" Text="Sair" PreviewMouseDown="txtSair_PreviewMouseDown">
+                <TextBlock.Style>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Margin" Value="15"/>
+                        <Setter Property="FontFamily" Value="Lado"/>
+                        <Setter Property="FontSize" Value="25"/>
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="Foreground" Value="#A2A2A2"/>
+                        <Setter Property="Text" Value="Segurança"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="TextDecorations" Value="Underline"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>
+        <Grid x:Name="grid" Width="774" HorizontalAlignment="Right" Height="2400" Background="#202020" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Grid x:Name="Inic" HorizontalAlignment="Right" Width="774" VerticalAlignment="Top" Height="580" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <TextBlock FontFamily="Lado" Foreground="#FFBA00" FontSize="40" Text="Seja bem vindo!" FontWeight="Bold" Margin="40,50" VerticalAlignment="Top" HorizontalAlignment="Center"></TextBlock>
+            </Grid>
+            <Grid x:Name="CadastrarPeças" HorizontalAlignment="Right" Width="774" VerticalAlignment="Top" Height="600" Margin="0,600,0,0" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <TextBlock FontFamily="Lado" Foreground="#FFBA00" FontSize="30" Text="Cadastro de novas peças" FontWeight="Bold" Margin="40,50" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
+                <Image x:Name="ImagemPeca" OpacityMask="Black" Width="200px" Height="300px" Margin="40,160,0,140" HorizontalAlignment="Left" Cursor="Hand" Source="Imagem\AdicionarImagem.png" PreviewMouseDown="ImagemPeca_PreviewMouseDown">
+                </Image>
+                <TextBlock x:Name="txtNomeImagem" Margin="100,400,0,30" Width="100px" Height="50px" HorizontalAlignment="Left" Visibility="Hidden"></TextBlock>
+                <TextBox x:Name="txtNomePeca" materialDesign:HintAssist.Hint="Nome da peça" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="470" Margin="270,121,0,431"/>
+                <TextBox x:Name="txtHorario" materialDesign:HintAssist.Hint="Horário" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="136" Margin="270,174,0,367"/>
+                <TextBox x:Name="txtDur" materialDesign:HintAssist.Hint="Duração" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="136" Margin="604,174,0,367"/>
+                <ComboBox x:Name="txtClass" Style="{StaticResource MaterialDesignFloatingHintComboBox}" materialDesign:HintAssist.Hint="Classificação" Text="{Binding Peças}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="216" Height="50px" Margin="270,239,0,311">
+                    <ComboBoxItem x:Name="cbLivre" PreviewMouseUp="cbLivre_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Livre" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cb10" PreviewMouseUp="cb10_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="+10" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cb12" PreviewMouseUp="cb12_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="+12" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cb14" PreviewMouseUp="cb14_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="+14" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cb16" PreviewMouseUp="cb16_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="+16" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cb18" PreviewMouseUp="cb18_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="+18" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                </ComboBox>
+                <ComboBox x:Name="txtGen" Style="{StaticResource MaterialDesignFloatingHintComboBox}" materialDesign:HintAssist.Hint="Gênero" Text="{Binding Peças}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="216" Height="50px" Margin="524,239,0,311">
+                    <ComboBoxItem x:Name="cbComedia" PreviewMouseUp="cbComedia_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Comédia" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cbAventura" PreviewMouseUp="cbAventura_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Aventura" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cbDrama" PreviewMouseUp="cbDrama_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Drama" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cbMusical" PreviewMouseUp="cbMusical_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Musical" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cbOpera" PreviewMouseUp="cbOpera_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Ópera" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                    <ComboBoxItem x:Name="cbMimica" PreviewMouseUp="cbMimica_PreviewMouseUp">
+                        <ComboBoxItem.Style>
+                            <Style TargetType="{x:Type ComboBoxItem}">
+                                <Setter Property="Background" Value="#323232"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#323232"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBoxItem.Style>
+                        <Grid>
+                            <TextBlock Text="Mímica" FontFamily="Lado" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#A2A2A2"/>
+                        </Grid>
+                    </ComboBoxItem>
+                </ComboBox>
+                <TextBox x:Name="txtSin" materialDesign:HintAssist.Hint="Sinopse" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="470" Margin="270,294,0,235" TextAlignment="Justify" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap"/>
+                <TextBox x:Name="txtFic" materialDesign:HintAssist.Hint="Ficha Técnica" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="470" Margin="270,365,0,145" TextAlignment="Justify" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap"/>
+                <TextBox x:Name="txtData" materialDesign:HintAssist.Hint="Data" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Lato" FontSize="20" Foreground="White" HorizontalAlignment="Left" Width="136" Margin="434,175,0,366"/>
+                <Button x:Name="btnCadastrar" Background="#FFFF4343" Margin="485,488,0,80" BorderBrush="#FFFF4343" Click="btnCadastrar_Click" HorizontalAlignment="Left" Width="224" Height="Auto">
+                    <TextBlock Text="Cadastrar" FontFamily="Lado" Foreground="#FFFFFF" FontSize="20px" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"/>
+                </Button>
+
+
+            </Grid>
+            <Grid x:Name="VizualizarPeças" HorizontalAlignment="Right" Width="774" VerticalAlignment="Top" Height="600" Margin="0,1200,0,0" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <TextBlock FontFamily="Lado" Foreground="#FFBA00" FontSize="30" Text="Vizualização da Peça" FontWeight="Bold" Margin="40,50" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
+            </Grid>
+            <Grid x:Name="Segurança" HorizontalAlignment="Right" Width="774" VerticalAlignment="Top" Height="600" Margin="0,1800,0,0" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <TextBlock FontFamily="Lado" Foreground="#FFBA00" FontSize="30" Text="Segurança" FontWeight="Bold" Margin="40,50" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock x:Name="txtConta" HorizontalAlignment="Left" Margin="40,110,0,0" TextWrapping="Wrap" Text="Conta" FontWeight="Bold" VerticalAlignment="Top" FontFamily="Lado" Foreground="#A2A2A2" FontSize="30px"/>
+                <Border CornerRadius="15" Background="#A2A2A2" Padding="2" Height="368" Margin="40,184.8,40.8,0" VerticalAlignment="Top">
+                    <Grid Background="#202020">
+                        <TextBlock x:Name="txtMudar" FontFamily="Lado" Foreground="#A2A2A2" FontSize="18px" HorizontalAlignment="Left" Margin="80,15.8,0,0" TextWrapping="Wrap" Text="Mudar Senha" VerticalAlignment="Top"/>
+                        <materialDesign:PackIcon Kind="Key" Height="25" Width="25" Foreground="#A2A2A2" Margin="40,12,0,0"/>
+                        <PasswordBox x:Name="txtSenhaAtual" materialDesign:HintAssist.Hint="Senha Atual" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Lato" FontSize="15px" Margin="40,-190,0,0" VerticalAlignment="Center" Foreground="#A2A2A2" Grid.Row="2" HorizontalAlignment="Left" Width="500" Height="50.5"/>
+                        <PasswordBox x:Name="txtNova" materialDesign:HintAssist.Hint="Senha Nova" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Lato" FontSize="15px" Margin="40,-20,0,0" VerticalAlignment="Center" Foreground="#A2A2A2" Grid.Row="2" HorizontalAlignment="Left" Width="500" Height="50.5"/>
+                        <PasswordBox x:Name="txtConfSenhaNova" materialDesign:HintAssist.Hint="Confirmar Senha Nova" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Lato" FontSize="15px" Margin="40,150,0,0" VerticalAlignment="Center" Foreground="#A2A2A2" Grid.Row="2" HorizontalAlignment="Left" Width="500" Height="50.5"/>
+
+                    </Grid>
+                </Border>
+
+            </Grid>
+
+
+
+        </Grid>
+    </Grid>
+</Window>
+

@@ -1,0 +1,5 @@
+c:\users\samir\documents\visual studio 2015\Projects\Testizin pra prova\Testizin pra prova\bin\Debug\Testizin pra prova.exe.config
+c:\users\samir\documents\visual studio 2015\Projects\Testizin pra prova\Testizin pra prova\obj\Debug\Testizin pra prova.csprojResolveAssemblyReference.cache
+c:\users\samir\documents\visual studio 2015\Projects\Testizin pra prova\Testizin pra prova\obj\Debug\Testizin_pra_prova.Form1.resources
+c:\users\samir\documents\visual studio 2015\Projects\Testizin pra prova\Testizin pra prova\obj\Debug\Testizin_pra_prova.Properties.Resources.resources
+c:\users\samir\documents\visual studio 2015\Projects\Testizin pra prova\Testizin pra prova\obj\Debug\Testizin pra prova.csproj.GenerateResource.Cache

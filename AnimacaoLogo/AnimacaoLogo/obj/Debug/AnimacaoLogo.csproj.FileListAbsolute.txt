@@ -1,0 +1,14 @@
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\bin\Debug\AnimacaoLogo.exe.config
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\bin\Debug\AnimacaoLogo.exe
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\bin\Debug\AnimacaoLogo.pdb
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo.csprojResolveAssemblyReference.cache
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\MainWindow.g.cs
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\App.g.cs
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo_MarkupCompile.cache
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo_MarkupCompile.lref
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\MainWindow.baml
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo.g.resources
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo.Properties.Resources.resources
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo.csproj.GenerateResource.Cache
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo.exe
+c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\obj\Debug\AnimacaoLogo.pdb

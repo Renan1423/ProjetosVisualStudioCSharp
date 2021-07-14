@@ -1,0 +1,1 @@
+c:\users\samir\documents\visual studio 2015\Projects\GridView\GridView\bin\Debug\GridView.exe.config

@@ -1,0 +1,55 @@
+﻿body {
+}
+div.Everycoisa {
+}
+div.Prancheta{
+    height: 1100px;
+    width: 80%;
+    border-radius: 30px;
+    border: 8px solid #0094ff;
+    float: right;
+    z-index: 2;
+    position: absolute;
+    margin-left: 340px;
+}
+#Psicologico {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #0094ff;
+    background-color: #0094ff;
+    width: 15%;
+    height: 175px;
+    margin-top: 150px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    margin-left: 55px;
+}
+#Fisico {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    width: 12%;
+    height: 175px;
+    margin-top: 350px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    margin-left: 120px;
+    opacity: 0.7;
+}
+#Mobilidade {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #00ff21;
+    background-color: #00ff21;
+    width: 12%;
+    height: 175px;
+    margin-top: 550px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    margin-left: 120px;
+    opacity: 0.7;
+}

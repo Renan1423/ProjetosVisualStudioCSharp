@@ -1,0 +1,20 @@
+﻿body {
+}
+#Image1{
+    float: left;
+    width: 200px;
+}
+#Image2 {
+    float: left;
+    width: 200px;
+}
+div.Cima {
+    float: left;
+    width: 230px;
+    height: 300px;
+}
+div.MenuCima {
+    float:left;
+    width: 230px;
+    height: 300px;
+}

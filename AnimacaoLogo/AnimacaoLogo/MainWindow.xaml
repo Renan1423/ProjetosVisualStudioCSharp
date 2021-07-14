@@ -1,0 +1,27 @@
+﻿<Window x:Class="AnimacaoLogo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnimacaoLogo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1024" ResizeMode="NoResize" WindowStyle="None" Background="#323232">
+    <Window.Resources>
+        <Storyboard x:Key="Opening"/>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Opening}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Image x:Name="LogoEsq" Source="c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\Imagens\LogoBuyPass.png" Width="150px" Height="150px" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0.9">
+            
+        </Image>
+        <Ellipse x:Name="Background" Width="100px" Height="100px" Fill="#202020"></Ellipse>
+        <TextBlock x:Name="BuyPass" FontFamily="Lado" FontSize="30" Text="BuyPass" Foreground="#FFFFFF" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="1" Margin="10px"></TextBlock>
+        <Image x:Name="LogoDir" Source="c:\users\samir\documents\visual studio 2015\Projects\AnimacaoLogo\AnimacaoLogo\Imagens\LogoBuyPass.png" Width="150px" Height="150px" HorizontalAlignment="Right" VerticalAlignment="Center" Opacity="0.9">
+
+        </Image>
+    </Grid>
+</Window>

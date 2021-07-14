@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ProjMasterPage.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content></title>
+    <link rel="stylesheet" type="text/css" href="Site.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Always" runat="server">
+    <ContentTemplate>
+    <div>
+        <div class="Menu">
+            <div class="Imagem1">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagem/logo.JPG" />
+            </div>
+            <div class="Imagem2">
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/Imagem/banner.JPG" />
+            </div>
+        </div>
+        <div class="Categorias">
+            <a href="Default.aspx?id=1" class="Categoria1">Home</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Calendário</a>
+            <a href="Default.aspx?id=1" class="Categoria2">Categoria</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Bebidas</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Condimentos</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Confeitos</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Laticínios</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Grãos/Cereais</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Carnes/Aves</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Hortigrenjeiros</a>
+            <a href="Default.aspx?id=1" class="Categoria1">Frutos do Mar</a>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </ContentTemplate>
+    </asp:UpdatePanel>
+    </form>
+</body>
+</html>

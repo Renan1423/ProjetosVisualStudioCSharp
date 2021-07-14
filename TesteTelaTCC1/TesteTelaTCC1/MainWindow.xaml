@@ -1,0 +1,57 @@
+﻿<Window x:Class="TesteTelaTCC1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TesteTelaTCC1"
+        mc:Ignorable="d"
+        xmlns:wpf="clr namespace:MaterialDesignThemes.Wpf"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:domain1="clr namespace:MaterialDesignDemo.Domain"
+        xmlns:codeDisplayer="clr namespace:CodeDisplayer;assembly-CodeDisplayer"
+        Title="Login" Height="350" Width="525" ResizeMode="NoResize" Background="Transparent" WindowStyle="None">
+    <Grid>
+        <Rectangle RadiusY="7.895" RadiusX="19.737" Fill="White"/>
+        <Image Source="C:\Users\samir\Documents\Visual Studio 2015\Projects\TesteTelaTCC1\download.JPEG" Height="450"  Margin="325,0,-0.2,0.4"/>
+        <Rectangle Margin="325,0,-0.2,0.4" Opacity="0.7">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF11076E" Offset="0.26"/>
+                    <GradientStop Color="#FF08819F" Offset="0.736"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Margin="20,20,200,10">
+            <Label Content="Login" FontFamily="Segoe UI Black" FontSize="24" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,10"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Margin="20,0,0,0">Não possui uma conta? Crie uma!</TextBlock>
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Margin="5,0" Foreground="#FF2468AC">Crie uma!</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="0,15" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Account" VerticalAlignment="Bottom" Margin="5" Foreground="#707070"></materialDesign:PackIcon>
+                <TextBox materialDesign:HintAssist.Hint="Usuário" Width="250"/>
+            </StackPanel>
+            <StackPanel Margin="0,15" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Key" VerticalAlignment="Bottom" Margin="5" Foreground="#707070"></materialDesign:PackIcon>
+                <PasswordBox materialDesign:HintAssist.Hint="Senha" Width="250"/>
+            </StackPanel>
+            <Grid>
+                <CheckBox Content="Lembre minha senha" Margin="5,10"/>
+                <Label Content="Esqueci minha senha" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            </Grid>
+            <Button HorizontalAlignment="Center" Content="LOGIN" FontFamily="Impact" FontSize="18" Width="100" Margin="10"/>
+            <StackPanel Orientation="Horizontal" Margin="-5">
+                <Label Content="Ou acesse com" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+                <Button HorizontalAlignment="Center" FontFamily="Impact" FontSize="18" Background="Blue" Width="45">
+                    <materialDesign:PackIcon Kind="Facebook" VerticalAlignment="Center" Width="14" Height="25"/>
+                </Button>
+                <Button HorizontalAlignment="Center" FontFamily="Impact" FontSize="18" Background="OrangeRed" Width="45" Margin="15,0">
+                    <materialDesign:PackIcon Kind="Google" VerticalAlignment="Center" Width="14" Height="25"/>
+                </Button>
+                <Button HorizontalAlignment="Center" FontFamily="Impact" FontSize="18" Background="Aqua" Width="45">
+                    <materialDesign:PackIcon Kind="Twitter" VerticalAlignment="Center" Width="14" Height="25"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

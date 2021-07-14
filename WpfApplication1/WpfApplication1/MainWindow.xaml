@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="625" Visibility="Visible" VerticalAlignment="Center" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="511*"/>
+            <ColumnDefinition Width="107*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Transforme esse texto em algo bonito!!!" HorizontalAlignment="Left" Margin="175,192,0,0" VerticalAlignment="Top" Width="320" Click="button_Click" Background="Black" Cursor="Hand" FontFamily="Arial" FontSize="18" RenderTransformOrigin="0.344,2.198">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC50000" Offset="0.381"/>
+                    <GradientStop Color="#FF000BF0" Offset="0.686"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="3"/>
+            </Button.Effect>
+        </Button>
+        <Label x:Name="label" HorizontalAlignment="Left" Margin="218,49,0,0" VerticalAlignment="Top">
+            <Label x:Name="label1" Content="Teste dos bagulhitos de design do WPF" RenderTransformOrigin="0.501,0.737"/>
+        </Label>
+
+    </Grid>
+</Window>

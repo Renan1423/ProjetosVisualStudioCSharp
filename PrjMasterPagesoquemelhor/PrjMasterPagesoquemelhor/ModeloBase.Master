@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ModeloBase.master.cs" Inherits="PrjMasterPagesoquemelhor.ModeloBase" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div class="Cima">
+                    <div class="MenuCima">
+                        <div class="Imagem1">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagens/logo.JPG" />
+                        </div>
+                        <div class="Imagem2">
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/Imagens/banner.JPG" />
+                        </div>
+                    </div>
+                </div>        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
